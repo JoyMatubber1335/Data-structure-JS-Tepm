@@ -1,3 +1,4 @@
+'use strict';
 const restaurant = {
   name: 'Classico Italiano',
   location: 'Via Angelo Tavanti 23, Firenze, Italy',
@@ -36,9 +37,6 @@ const restaurant = {
 const newResturent = { ...restaurant };
 newResturent.name = "Joy's Cafe";
 console.log(newResturent.name);
-
-
-
 
 let array = [3, 4, 5, 6];
 let newArray = [1, 2, ...array];
